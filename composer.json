@@ -1,0 +1,22 @@
+{
+    "name": "janthomas89/mailsafe",
+    "description": "simple symfony 2 bundle to output an email in a spam safe way",
+    "homepage": "https://github.com/janthomas89/mailsafe",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.3"
+    },
+    "authors": [
+        {
+            "name": "Jan Thomas",
+            "email": "jan.thomas qrwth-aachen.de",
+            "homepage": "https://github.com/janthomas89"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "JanThomas89\\Bundle\\MailSafeBundle": "" }
+    },
+    "target-dir": "JanThomas89/Bundle/MailSafeBundle"
+}

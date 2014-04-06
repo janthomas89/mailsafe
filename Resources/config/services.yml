@@ -1,0 +1,10 @@
+services:
+    janthomas89.mailsafe.service:
+        class: JanThomas89\Bundle\MailSafeBundle\Services\MailSafeService
+        arguments: [ mailsafe ]
+
+    janthomas89.mailsafe.twig.mail_safe_extension:
+            class: JanThomas89\Bundle\MailSafeBundle\Twig\Extension\MailSafeExtension
+            arguments: [ @janthomas89.mailsafe.service ]
+            tags:
+                - { name: twig.extension }
