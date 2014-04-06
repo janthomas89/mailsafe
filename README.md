@@ -8,7 +8,7 @@ How it works?
 In order to hide an email address for spam bots, mailsafe renders a span element instead of the raw email address.
 The spans data-mailsafe attribute represents a reversed and base 64 encoded version of the email address.
 
-<span data-mailsafe="WyJlZC5lcmF3dGZvcy1zYW1vaHRuYWpAb2ZuaSIsIiJd"></span>
+&lt;span data-mailsafe="WyJlZC5lcmF3dGZvcy1zYW1vaHRuYWpAb2ZuaSIsIiJd"&gt;&lt;/span&gt;
 
 To display a human readable version of this email the span is replaced via javascript.
 
