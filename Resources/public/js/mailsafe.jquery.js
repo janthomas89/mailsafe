@@ -30,8 +30,6 @@
                     .html(name);
 
                 $this.replaceWith($a);
-
-                console.log(mail, name);
             });
         });
     };
