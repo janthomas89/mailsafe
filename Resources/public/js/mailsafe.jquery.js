@@ -1,5 +1,12 @@
-(function($, undefined) {
-
+(function(factory) {
+    if (typeof define === 'function' && define.amd) {
+        define(['jquery'], factory);
+    } else if (typeof exports === 'object' && typeof module === 'object') {
+        factory(require('jquery'));
+    } else {
+        factory(window.jQuery);
+    }
+})(function($, undefined) {
     /**
      * Reverses the given string.
      * @param input
@@ -38,5 +45,4 @@
     $(function() {
         $('body').mailsafe();
     });
-
-})(jQuery);
+})
