@@ -13,6 +13,10 @@
             "name": "Jan Thomas",
             "email": "jan.thomas@rwth-aachen.de",
             "homepage": "https://github.com/janthomas89"
+        },{
+            "name": "Alex Vasilenko",
+            "email": "crahobzy@ukr.net",
+            "homepage": "https://github.com/mente"
         }
     ],
     "autoload": {
