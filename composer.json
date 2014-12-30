@@ -1,6 +1,7 @@
 {
     "name": "janthomas89/mailsafe",
     "description": "simple symfony 2 bundle to output an email in a spam safe way",
+    "keywords": ["spam","safe","spamsafe","mail","email","encryption","encoding"],
     "homepage": "https://github.com/janthomas89/mailsafe",
     "minimum-stability": "dev",
     "license": "MIT",
